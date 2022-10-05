@@ -47,15 +47,18 @@ list-style-type: none;
 /* INIZIO PROGETTO */
 
 .container-100vh{
-    
     flex-direction:row;
     flex-wrap: wrap;
     height: 100vh;  
 }
 header{
+    width: 100%;
     text-align: right;
     padding: 2rem;
     background-color: rgb(7, 6, 6,0.5);
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 header a{
     color: white;
@@ -64,7 +67,7 @@ header a{
 main{
     height: 90vh;
     flex-grow: 1;
-    background-color:lightcoral;
+    
 }
 
 .left-cnt{
@@ -73,11 +76,17 @@ main{
     height: 90vh;
     border: 1px solid black;
     background-color: lightgreen;
+    position: fixed;
+    left: 0;
+    z-index: 2;
 }
 footer{
     height: 10vh;
     width: 100%;
     background-color: lightcyan;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
 }
 
 
