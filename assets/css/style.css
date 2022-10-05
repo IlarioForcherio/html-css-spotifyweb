@@ -36,6 +36,7 @@ list-style-type: none;
     width: 500px;
     height: 900px;
     background-color: blueviolet;
+   
 }
 .box100{
     width: 100px;
@@ -51,24 +52,10 @@ list-style-type: none;
     flex-wrap: wrap;
     height: 100vh;  
 }
-header{
-    width: 100%;
-    text-align: right;
-    padding: 2rem;
-    background-color: rgb(7, 6, 6,0.5);
-    position: fixed;
-    top: 0;
-    z-index: 1;
-}
-header a{
-    color: white;
-    
-}
-main{
-    height: 90vh;
-    flex-grow: 1;
-    
-}
+
+
+/* MAIN */
+
 
 .left-cnt{
     flex-direction: column;
@@ -80,6 +67,56 @@ main{
     left: 0;
     z-index: 2;
 }
+
+
+/* HEADER */
+
+header{
+    width: 100%;
+    text-align: right;
+    padding: 2rem;
+    background-color: rgb(7, 6, 6,0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header a{
+    color: white;
+    
+}
+
+
+main{
+    height: 90vh;
+    flex-grow: 1;  
+}
+
+/* BOX-MAIN */
+
+.box-main{
+    padding-left: 2.5rem;
+}
+
+.main-banner{
+    text-align: center;
+}
+
+.main-banner li{
+ display: inline;
+ padding: 0rem 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     height: 10vh;
     width: 100%;
