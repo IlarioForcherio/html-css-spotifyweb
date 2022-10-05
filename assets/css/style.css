@@ -45,6 +45,11 @@ list-style-type: none;
     border: 1px solid black;
 }
 
+html{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* INIZIO PROGETTO */
 
 .container-100vh{
@@ -56,16 +61,27 @@ list-style-type: none;
 
 /* MAIN */
 
+/* COLONNA SPOTIFY */
+
 
 .left-cnt{
+    width: 20vw;
     flex-direction: column;
     justify-content: space-between;
     height: 90vh;
     border: 1px solid black;
-    background-color: lightgreen;
     position: fixed;
     left: 0;
     z-index: 2;
+    background-color: lightgreen;
+    
+    
+}
+
+.left-cnt img{
+    width:230px;
+    padding: 1rem 2rem;
+    
 }
 
 
@@ -75,36 +91,122 @@ header{
     width: 100%;
     text-align: right;
     padding: 2rem;
-    background-color: rgb(7, 6, 6,0.5);
+    background-color:rgba(12, 15, 20, 0.4);
     position: sticky;
     top: 0;
     z-index: 1;
 }
 header a{
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 1rem 4rem;
     color: white;
+    
     
 }
 
+/* MAIN CONTAINER */
 
 main{
-    height: 90vh;
-    flex-grow: 1;  
+    background-color: #141922;
+    color: white;
+    flex-grow: 1; 
+    
 }
 
-/* BOX-MAIN */
+/* SECTION1 */
 
-.box-main{
-    padding-left: 2.5rem;
+
+.col1 {
+    flex-basis: 20vw;
+    
+}
+.col2{
+    flex-basis: 80vw;
+    
+    height: 150vh;
+
+}
+.sec1-banner ul{
+padding: 2rem;
+text-align: center;
+
+
+}
+.sec1-banner li{
+    display: inline;
+    padding: 2rem 2rem; 
+    
 }
 
-.main-banner{
+.sec1-banner h2{
+    padding: 2rem 2rem;
+}
+
+.sec1 h2{
+    padding: 0rem 2rem;
+}
+.card-ctn{
+    padding: 2rem 2rem;
+    justify-content: space-around;
+}
+.card{
+    width:calc(16.66% - 1rem);
+    
+}
+.card img{
+   width: 100%;
+   
+   object-fit: contain;
+}
+.card h3, .card div{
     text-align: center;
+    padding-top: 0.7rem;   
 }
 
-.main-banner li{
- display: inline;
- padding: 0rem 2rem;
+.card div,.sec3 p{
+    color: #727579;
 }
+
+/* SECTION3 */
+/* CARD2 */
+
+.sec3 p{
+    padding:1rem 2rem;
+}
+
+.card2,.card3{
+   
+    padding: 1rem 2rem;  
+}
+
+.card2 img,.card3 img{
+    width: 100%;
+    object-fit: contain; 
+}
+
+.card2 picture,.card3 picture{
+    width:calc(18% - 1rem);
+    padding-right:1rem;
+}
+
+.card3 img{
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
