@@ -3,49 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/utility.css">
-    <title>Spotify</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotfy</title>
 </head>
 <body>
     <div class="container-100vh flex">
-       <!-- COLONNA SPOTIFY -->
-        <section class="left-cnt flex">
-            <div>
-            <img src="./assets/img/logo.svg" alt="">
-            </div>
-            </section>
         
-            <main>
-         <!-- HEADER -->
+    <main class="flex">
+        <div class="col1">
+            <picture>
+            <img src="./assets/img/logo.svg" alt="">
+            </picture>
+        </div>
+        <div class="fill"></div>
+        <div class="col2">
             <header>
                 <a href="#">EFFETTUA L'UPGRADE</a>
             </header>
-
-        <!-- MAIN CONTAINER -->
-            <div class="flex main-container">
-            <div class="col1 EMPTY"></div>
-        
-            <!--SECTION1  -->
-            <div class="col2  sec1">
-               <div class="sec1-banner">
-                <ul>
-                <li>IN EVIDENZA</li>
-                <li>PODCAST</li>
-                <li>CLASIFICHE</li>
-                <li>GENERI E MOOD</li>
-                <li>NUOVE USCITE</li>
-                <li>SCOPRI</li>
-                </ul>
-               </div>
-
+            <div class="col2-cnt">
+                <div class="col2-banner">
+                    <ul>
+                    <li>IN EVIDENZA</li>
+                    <li>PODCAST</li>
+                    <li>CLASIFICHE</li>
+                    <li>GENERI E MOOD</li>
+                    <li>NUOVE USCITE</li>
+                    <li>SCOPRI</li>
+                    </ul>
+                   </div>
+                   
                <h2>Recently Played</h2>
-               <!-- CARD-CTN -->
-               <!-- SECTION2 -->
+               
+               
                <section class="card-ctn flex">
-                <!-- CARD -->
+                
                 <div class="card">
                     <picture><img src="./assets/img/metal_lifting.jpg" alt=""></picture>
                     <h3>Heavy Metal</h3>
@@ -53,32 +46,30 @@
                 </div>
                 <div class="card">
                     <picture><img src="./assets/img/stranger.jpeg" alt=""></picture>
-                    <h3>Heavy Metal</h3>
-                    <div>subtitle</div>
+                    <h3>Stranger Things,Vol.1(a Netflix Original Series Soundtrack)</h3>
+                    <div>kyle Dixon & Michael Stein</div>
                 </div>
                 <div class="card">
                     <picture><img src="./assets/img/aquietplace.jpeg" alt=""></picture>
-                    <h3>Heavy Metal</h3>
+                    <h3>A quiet place</h3>
                     <div>subtitle</div>
                 </div>
                 <div class="card">
                     <picture><img src="./assets/img/split.jpeg" alt=""></picture>
-                    <h3>Heavy Metal</h3>
+                    <h3>Split</h3>
                     <div>subtitle</div>
                 </div>
                 <div class="card">
                     <picture><img src="./assets/img/cure.jpeg" alt=""></picture>
-                    <h3>Heavy Metal</h3>
+                    <h3>A cure for Wellness</h3>
                     <div>subtitle</div>
                 </div>
                 <div class="card">
                     <picture><img src="./assets/img/sinister.jpeg" alt=""></picture>
-                    <h3>Heavy Metal</h3>
+                    <h3>Sinister</h3>
                     <div>subtitle</div>
                 </div>
                </section>
-               
-               <!-- SECTION3 -->
                <div class="sec3">
                 <h2>Creato per John Doe</h2>
                <p>Più ascolti, più accurati saranno i suggerimenti.</p>
@@ -95,14 +86,8 @@
                 <h3>Daily Mix 1</h3>
                 </picture>
                </section>
-                
-               <!-- SECTION4 -->
-               <div class="sec3">
-                <h2>Artisti più popolari</h2>
-                <p>Più ascolti, più accurati saranno i suggerimenti.</p>
-               </div>
-
-               <!-- CARD2 -->
+               
+               
                <section class="card3 flex">
                 <picture>
                 <img src="./assets/img/youg.jpeg" alt="">
@@ -115,28 +100,30 @@
                </section>
             </div>
             </div>
-        </main>
-        <!-- FOOTER -->
-        <footer class="flex">
-            <div class="sinister flex">
-            <picture><img src="./assets/img/sinister.jpeg" alt=""></picture>
-            <div class="footer-text">
-                <div><h3>Sinister</h3></div>
-                <div>Brano Nome</div>
+            <footer class="flex">
+                <div class="sinister flex">
+                <picture><img src="./assets/img/sinister.jpeg" alt=""></picture>
+                <div class="footer-text">
+                    <div><h3>Sinister</h3></div>
+                    <div>Brano Nome</div>
+                </div>
+                <i class="fa-sharp fa-solid fa-heart"></i>
+                <i class="fa-sharp fa-solid fa-folder"></i>
+    
+                </div>
+                <div>
+                    <div>player1</div>
+                    <div>player2</div>
+                </div>
+                <div>icons</div>
+            </footer>
+                   
             </div>
-            <i class="fa-sharp fa-solid fa-heart"></i>
-            <i class="fa-sharp fa-solid fa-folder"></i>
-
-            </div>
-            <div>
-                <div>player1</div>
-                <div>player2</div>
-            </div>
-            <div>icons</div>
-
-        </footer>
-
-
+               
+        </div>
+    </main>
     </div>
+
+    
 </body>
 </html>
