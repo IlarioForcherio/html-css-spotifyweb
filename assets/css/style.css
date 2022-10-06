@@ -8,6 +8,7 @@
 
 * a{
     text-decoration: none;
+    color:#666666;
 }
 
 * ul{
@@ -87,14 +88,30 @@ main{
 .col1 ul{
     padding: 1rem 1rem;
 }
+.col1 li{
+    color: #666666;
+}
 .col1 h3{
+    color: white;
     padding: 0 0.7rem;
 }
 .img img{
     vertical-align: middle;
     width: 25%;
-
 }
+.fa-square-plus{
+    font-size: 40px;
+    vertical-align: middle;
+    
+}
+.col1-ul2{
+    overflow: auto;
+}
+.col1-ul2 li{
+    overflow: auto;
+    padding: 1rem 0;
+}
+
 
 /* COL2 */
 
