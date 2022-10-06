@@ -57,6 +57,9 @@ html{
     flex-wrap: wrap;
     height: 100vh;  
 }
+
+/* MAIN */
+
 main{
     height: 90vh;
     background-color: #141922;
@@ -64,8 +67,11 @@ main{
     flex:1 
     
 }
+
+/* COL1(SIDEBAR */
+
 .col1{
-    width: 10vw;
+    width: 15vw;
     flex-direction: column;
     justify-content: space-between;
     height: 90vh;
@@ -73,12 +79,33 @@ main{
     background-color:#000000;
 }
 
+.col1 img{
+    width: 80%;
+    padding: 10px;
+}
+
+.col1 ul{
+    padding: 1rem 1rem;
+}
+.col1 h3{
+    padding: 0 0.7rem;
+}
+.img img{
+    vertical-align: middle;
+    width: 25%;
+
+}
+
+/* COL2 */
+
+/* SECTION1 */
+
 
 
 .col2{
     overflow: auto;
-    width:90vw;
-    background-color: lightgreen;
+    width:85vw;
+    background-color: #141922;
 }
 header{
     width: 100%;
@@ -97,8 +124,13 @@ header a{
     
     
 }
+
+.col2-cnt{
+    padding: 2rem 2rem;
+    }
+
 .col2-banner ul{
-    padding: 2rem;
+    padding: 2rem 0;
     text-align: center;
     
     
@@ -108,16 +140,14 @@ header a{
     padding: 2rem 2rem; 
         
  }
-    
-.col2-banner h2{
-    padding: 2rem 2rem;
-}
 
 
 
+/* SECTION2 */
+/* CARD */
 
 .card-ctn{
-    padding: 2rem 2rem;
+    padding: 2rem 0rem;
     justify-content: space-around;
 }
 .card{
@@ -138,12 +168,17 @@ header a{
     color: #727579;
 }
 
+/* SECTION3 */
 
+.sec3{
+    padding: 2rem 0;
+}
 
+/* CARD2 */
 
 .card2,.card3{
    
-    padding: 1rem 2rem;  
+    padding: 0rem 0rem;  
 }
 
 .card2 img,.card3 img{
@@ -159,10 +194,6 @@ header a{
 .card3 img{
     border-radius: 50%;
 }
-
-
-
-
 
 
 /* FOOTER */
@@ -195,8 +226,24 @@ footer{
 }
 
 
+/* MEDIA QUERY */
+
+/* TABLET */
+
+@media screen and (max-width:768px){
+
+    
+}
 
 
+
+/* MOBILE */
+
+
+@media screen and (max-width:480px){
+
+    
+}
 
 
 
