@@ -312,7 +312,7 @@ padding-right: 30px;
 
 /* TABLET */
 
-@media screen and (max-width:768px){
+@media screen and (max-width:878px){
     
     /* HEADER */
     
@@ -412,7 +412,7 @@ padding-right: 30px;
 /* MOBILE */
 
 
-@media screen and (max-width:480px){
+@media screen and (max-width: 639px){
     header a{
         font-size: 7px;
          padding: 5px 20px;  
@@ -452,7 +452,7 @@ padding-right: 30px;
 .col2{
     overflow: auto;
     width:calc(100vw - 120px);
-    background-color: #141922;
+    
 }
 .col2-cnt{
     padding: 7px 7px;
@@ -461,22 +461,14 @@ padding-right: 30px;
 
 /* MAIN */
 main{
-    height:calc(100vh - 80px);
-    background-color: #141922;
-    color: white;
-    flex:1 
-    
+    height:calc(100vh - 80px);  
 }
 .download img, .john-doe img{
     vertical-align: middle;
     width: 20%;
 }
 
-
-
- 
       /* BANNER */
-         
          
      .col2-banner li{
          display: inline;
@@ -494,10 +486,11 @@ main{
      }
      /* CARD */
      
-     .card-ctn{
-         padding: 0px 0;
-         justify-content:center;
-         
+     .card-ctn, .card2{
+        
+         padding: 0px 0px;
+         justify-content:space-around;
+         align-items: center;
          flex-wrap: wrap;
      }
      .card{
@@ -530,6 +523,7 @@ main{
      }
  
      /* CARD2 */
+     
      .card2 picture,.card3 picture{
          width:calc(50% - 10px);
          padding-right:20px;
@@ -567,8 +561,6 @@ main{
         padding: 0 10px;
     }
 
-
-    
     .hr-footer{
         width: 50px;
         border: 1px solid white;
@@ -585,6 +577,90 @@ main{
     }
      
  }
+
+ /* MOBILE XS */
+ 
+ @media screen and (max-width: 552px){
+    /* COL1 */
+    .col1{
+        
+        font-size: 0.6rem;
+        width: 40px;
+        height: calc(100vh - 50px);  
+    }
+   
+  
+    .download a,.john-doe span,.hr,.col1 a,.col1 img,.fa-square-plus {
+        display:none;
+    }
+    .img img{
+        padding-left: 15px;
+        width: 100%;
+        display: block;
+    }
+
+   
+    
+
+    /* COL2 */
+    .col2{
+        
+        overflow: auto;
+        width:calc(100vw - 30px); 
+    }
+    /* MAIN */
+    main{
+        height:calc(100vh - 20px);  
+    }
+    /* FOOTER */
+    footer{
+        height: 70px;
+        width: 100%;
+    }
+    .player3{
+        padding: 0px;
+    }
+     
+     .player1 i{
+         padding: 0 5px;
+     }
+     .sinister i {
+        font-size: 10px;
+        padding:0 2px;
+    }
+     .sinister img{
+        width: 25px;
+        object-fit: contain;
+    }
+
+    .footer-text{
+        font-size: 10px;
+        padding: 0 10px;
+    }    
+    
+
+    .hr-footer{
+        width: 30px;
+       
+    }
+    /* PLAYER2 */
+    .player2{
+        padding-top:5px;
+    }
+    .player2 div{
+        font-size: 10px;
+    }
+    .fa-circle{
+        font-size: 5px;
+    }
+    
+    .player3 i{
+        font-size: 10px;
+    padding-right: 10px;
+    }
+ }
+
+
     
 
 
