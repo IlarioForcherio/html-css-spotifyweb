@@ -141,8 +141,8 @@ main{
 
 
 .col2{
-    overflow: auto;
-    width:calc(100vw - 200px);
+    overflow-y: auto;
+    width:calc(100vw - 100px);
     background-color: #141922;
 }
 header{
@@ -187,24 +187,27 @@ header a{
 /* SECTION2 */
 
 .sec2 h2{
-    padding-left: 5px;
+    padding:40px 5px;
     font-size: 25px;
 }
 
 /* CARD */
 
-.card-ctn{
-    padding: 20px 0px;
+ .card-ctn{
+    padding: 0px 0px;
     justify-content: space-between;
-}
+} 
+
+
 .card{
-    width:calc(16.66% - 20px);
+   
+    width:calc(16.66% - 10px);
     
     
 }
 .card img{
+    
    width: 100%;
-   
    object-fit: contain;
 }
 .card h3, .card div{
@@ -272,15 +275,12 @@ padding: 0;
 }
 .player1 i{
     font-size:25px;
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 
-.hr-footer{
-    width: 100%;
-    border: 1px solid white;
-    padding: 0px 0px ;
-}
+
+
 /* PLAYER2 */
 .player2{
     padding-top:10px;
@@ -324,6 +324,7 @@ padding-right: 30px;
     /* COL2 */
     .col2-cnt{
         padding: 10px 10px;
+        
         }
 
      /* BANNER */
@@ -352,7 +353,7 @@ padding-right: 30px;
     
     .card-ctn{
         padding: 10px 0;
-        justify-content:center;
+        
         
         flex-wrap: wrap;
     }
@@ -612,6 +613,7 @@ main{
     main{
         height:calc(100vh - 20px);  
     }
+    
     /* FOOTER */
     footer{
         height: 70px;
