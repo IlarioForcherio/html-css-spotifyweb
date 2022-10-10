@@ -215,7 +215,6 @@ header a{
 }
 .card img{
    width: 100%;
-   object-fit: contain;
 }
 
 
@@ -244,10 +243,16 @@ header a{
 
 /* CARD2 */
 
+.card2, .card3{
+    
+    width: calc(35% - 20px);
+    align-items: flex-start;
+}
 
 .card2 img,.card3 img{
+    padding-right: 10px;
     width: 100%;
-    object-fit: contain; 
+     
 }
 .card2 img:hover{
     filter: brightness(0.4);
@@ -255,13 +260,16 @@ header a{
 
 
 
-.card2 picture,.card3 picture{
-    width:calc(18% - 10px);
+
+
+.card2 ,.card3 {
+    
     padding-right:20px;
 }
 
 .card3 img{
     border-radius: 50%;
+    object-fit: contain;
 }
 .card3 img:hover{
     filter: brightness(0.4);
